@@ -3,7 +3,9 @@ class Hash
     # code goes here
     hash_keys = []
     keys.each do |key|
-      if key  
+      if arguments.include?(key)
+        hash_keys << key
+      end
     end
   end
 end
