@@ -8,5 +8,6 @@ class Hash
         hash_keys << key
       end
     end
+    hash_keys
   end
 end
