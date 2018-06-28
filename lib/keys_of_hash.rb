@@ -3,7 +3,7 @@ class Hash
     # code goes here
     hash_keys = []
     arguments.each do |key|
-      puts key.keys
+      puts keys
     end
   end
 end
