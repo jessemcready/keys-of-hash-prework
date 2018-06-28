@@ -3,7 +3,7 @@ class Hash
     # code goes here
     arguments.each do |key|
       if key == arguments
-        keys
+        key.keys
       end
     end
   end
