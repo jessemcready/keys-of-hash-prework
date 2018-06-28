@@ -8,4 +8,5 @@ class Hash
       end
     end
   end
+  hash_keys
 end
